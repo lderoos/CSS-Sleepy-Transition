@@ -1,0 +1,40 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 400px;
+  padding: 25px;
+  border-radius: 50%;
+  
+  transition: background .5s .5s;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  color: blue;
+  letter-spacing: -3px;
+  
+  transition: letter-spacing .5s .25s;
+}
+
+h1:hover {
+  color: navy;
+    letter-spacing: 30px;
+}
+
+div:hover {
+  background-color: blanchedalmond;
+}
+
+
+
+/* Middle Page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: lightblue;
+}
